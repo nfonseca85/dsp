@@ -55,7 +55,8 @@ In the Terminal:
 
 `python3 --version`
 
->> Python 3.7.3
+>> Python 3.7.3. However if I activate the conda environment using eval "$(/Users/neilfonseca/anaconda3/bin/conda shell.zsh hook)"
+then I have Python 3.7.4
 
  
 
