@@ -86,13 +86,12 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> 
-Birth of a fraternal and identical twin are independent events, as a baby cannot be both a fraternal and identical twin. Moreover, if someone is a twin, they can either be fraternal or identical. So, P(Twin) = P(Fraternal) + P (Identical). The question asks for the probability that Elvis' twin was identical => P(Identical | Twin). Because they are independent:
+>> Birth of a fraternal and identical twin are independent events, as a baby cannot be both a fraternal and identical twin. Moreover, if someone is a twin, they can either be fraternal or identical. So, P(Twin) = P(Fraternal) + P (Identical). The question asks for the probability that Elvis' twin was identical => P(Identical | Twin). Because they are independent:
 
-P(I | T)= P(I) / P(T) = (1/300) / (1/125 + 1/300)
+>>P(I | T)= P(I) / P(T) = (1/300) / (1/125 + 1/300)
 = 29%
 
-However, this assumes that death at childbirth has no bearing. If fraternal twins have a higher probability of death than identical twins, then P(I | T) will be lower. I do not know how to find this in the data.
+>>However, this assumes that death at childbirth has no bearing. If fraternal twins have a higher probability of death than identical twins, then P(I | T) will be lower. I do not know how to find this in the data.
 
 
 
@@ -103,7 +102,7 @@ How do frequentist and Bayesian statistics compare?
 
 >> The Bayesian approach requires the statistician to make an adjustment based on the likelihood that the data sample is biased. There is potential for error in making this adjustment, but it could also lead to a more accurate solution in the long-run. The frequentist approach would be to leave out this adjustment.
 
-If a data analysis is performed on sample taken from a distribution with fat tails, there is still a high likelihood that the data in the sample does not exhibit those tails. An example would be financial data collected during a non-crisis period. The frequentist approach might outperform the bayesian approach during non-crisis periods, because it would not adjust for potential for tails in the data. However, it would likely underperform during crisis periods.
+>>If a data analysis is performed on sample taken from a distribution with fat tails, there is still a high likelihood that the data in the sample does not exhibit those tails. An example would be financial data collected during a non-crisis period. The frequentist approach might outperform the bayesian approach during non-crisis periods, because it would not adjust for potential for tails in the data. However, it would likely underperform during crisis periods.
 
 ---
 
